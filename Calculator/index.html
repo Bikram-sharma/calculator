@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display"></div>
+        <div class="num-pad">
+        <div id="clear" class="num"style='background-color: #AC3939' onclick="clearDisplay()">AC</div>
+        <div id="divide" class="num" onclick="setOperation('/')">/</div>
+        <div id="multiply" class="num" onclick="setOperation('*')">x</div>
+        <div id="one" class="num" onclick="appendToDisplay('1')">1</div>
+        <div id="two" class="num" onclick="appendToDisplay('2')">2</div>
+        <div id="three" class="num" onclick="appendToDisplay('3')">3</div>
+        <div id="subtract" class="num" onclick="setOperation('-')">-</div>
+        <div id="four" class="num" onclick="appendToDisplay('4')">4</div>
+        <div id="five" class="num" onclick="appendToDisplay('5')">5</div>
+        <div id="six" class="num" onclick="appendToDisplay('6')">6</div>
+        <div id="add" class="num" onclick="setOperation('+')">+</div>
+        <div id="seven" class="num" onclick="appendToDisplay('7')">7</div>
+        <div id="eight" class="num" onclick="appendToDisplay('8')">8</div>
+        <div id="nine" class="num" onclick="appendToDisplay('9')">9</div>
+        <div id="decimal" class="num" onclick="appendToDisplay('.')">.</div>
+        <div id="zero" class="num" onclick="appendToDisplay('0')">0</div>
+        <div id="equals" class="num" style='background-color: #AC3939' onclick="calculate()">=</div>
+
+    </div>
+    </div>
+
+
+
+
+   
+     
+
+    
+
+
+    
+      
+    <script src="script.js"></script>
+
+</body>
+</html>
